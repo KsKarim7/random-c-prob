@@ -10,26 +10,45 @@
 // }
 
 // #2
-#include <stdio.h>
-int main()
-{
-    int var1, var2;
-    float resDiv;
-    int res;
-    scanf("%d %d", &var1, &var2);
-    // // printf("%d %d", var1 - var2);
-    res = var1 + var2;
-    printf("5 + 2 = ");
-    printf("%d ", res);
-    res = var1 - var2;
-    printf("\n5 - 2 = ");
-    printf("%d ", res);
-    res = var1 * var2;
-    printf("\n5 * 2 = ");
-    printf("%d ", res);
-    resDiv = var1 * 1.0 / var2;
-    printf("\n5 / 2 = ");
-    printf("%0.2f ", resDiv);
+// #include <stdio.h>
+// int main()
+// {
+//     int var1, var2;
+//     float resDiv;
+//     int res;
+//     scanf("%d %d", &var1, &var2);
+//     // // printf("%d %d", var1 - var2);
+//     res = var1 + var2;
+//     printf("5 + 2 = ");
+//     printf("%d ", res);
+//     res = var1 - var2;
+//     printf("\n5 - 2 = ");
+//     printf("%d ", res);
+//     res = var1 * var2;
+//     printf("\n5 * 2 = ");
+//     printf("%d ", res);
+//     resDiv = var1 * 1.0 / var2;
+//     printf("\n5 / 2 = ");
+//     printf("%0.2f ", resDiv);
+//     return 0;
+// }
 
-    return 0;
-}
+// #3
+// #include <stdio.h>
+// int main()
+// {
+//     int inp;
+//     scanf("%d", &inp);
+//     if (inp > 0)
+//     {
+//         if (inp % 2 == 0)
+//         {
+//             printf("even");
+//         }
+//         else
+//         {
+//             printf("odd");
+//         }
+//     }
+//     return 0;
+// }
