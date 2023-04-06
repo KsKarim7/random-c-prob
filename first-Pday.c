@@ -54,22 +54,47 @@
 // }
 
 // task4
+// #include <stdio.h>
+// int main()
+// {
+//     int num;
+//     scanf("%d", &num);
+//     if (num < 0)
+//     {
+//         printf("negative");
+//     }
+//     else if (num > 0)
+//     {
+//         printf("positive");
+//     }
+//     else
+//     {
+//         printf("zero");
+//     }
+//     return 0;
+// }
+
+// #5
 #include <stdio.h>
 int main()
 {
-    int num;
-    scanf("%d", &num);
-    if (num < 0)
+    int inp;
+    scanf("%d", &inp);
+    if (inp > 20000)
     {
-        printf("negative");
+        printf("Gucci Bag \nGucci Belt");
     }
-    else if (num > 0)
+    else if (inp >= 10000)
     {
-        printf("positive");
+        printf("Gucci Bag");
+    }
+    else if (inp >= 5000)
+    {
+        printf("Levis bag");
     }
     else
     {
-        printf("zero");
+        printf("Something");
     }
     return 0;
 }
