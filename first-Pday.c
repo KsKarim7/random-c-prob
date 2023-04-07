@@ -75,26 +75,34 @@
 // }
 
 // #5
+// #include <stdio.h>
+// int main()
+// {
+//     int inp;
+//     scanf("%d", &inp);
+//     if (inp > 20000)
+//     {
+//         printf("Gucci Bag \nGucci Belt");
+//     }
+//     else if (inp >= 10000)
+//     {
+//         printf("Gucci Bag");
+//     }
+//     else if (inp >= 5000)
+//     {
+//         printf("Levis bag");
+//     }
+//     else
+//     {
+//         printf("Something");
+//     }
+//     return 0;
+// }
 #include <stdio.h>
 int main()
 {
-    int inp;
-    scanf("%d", &inp);
-    if (inp > 20000)
-    {
-        printf("Gucci Bag \nGucci Belt");
-    }
-    else if (inp >= 10000)
-    {
-        printf("Gucci Bag");
-    }
-    else if (inp >= 5000)
-    {
-        printf("Levis bag");
-    }
-    else
-    {
-        printf("Something");
-    }
+    int k;
+    for (k = -3; k < -5; k++)
+        printf("Hello ");
     return 0;
 }
