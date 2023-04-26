@@ -49,26 +49,77 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int m1, m2, d, ans = 0;
+//     scanf("%d %d %d", &m1, &m2, &d);
+//     ans = (d * m1) / m2;
+//     printf("%d", ans);
+//     return 0;
+// }
+
+// int main()
+// {
+//     int cap = 0, smol = 0;
+//     char inp[1001];
+//     scanf("%s", inp);
+//     for (int i = 0; i < strlen(inp); i++)
+//     {
+//         if (inp[i] >= 65 && inp[i] <= 90)
+//         {
+//             cap += 1;
+//         }
+//         else
+//         {
+//             smol += 1;
+//         }
+//     }
+//     printf("%d %d", cap, smol);
+//     return 0;
+// }
+
+// int main()
+// {
+//     int n, k;
+//     scanf("%d %d", &n,&k);
+//     // int count = 1;
+//     // for ( int j = 1; j <=k ; j++)
+//     // {
+//     //     printf("\n%d ", count);
+//     //     for(int k = 2;k<=n;k++){
+//     //         printf("%d ",k);
+//     //     }
+//     // }
+//     for(int j = 0;j<k;j++){
+//         for(int i = 1;i<=n;i++){
+//             printf("%d ",i);
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
 int main()
 {
-    int m1, m2, d, ans = 0;
-    scanf("%d %d %d", &m1, &m2, &d);
-    ans = (d * m1) / m2;
-    printf("%d", ans);
+    int n;
+    scanf("%d", &n);
+    int a[n];
+    int x, count = 0;
+    for (int i; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    scanf("%d", &x);
+    for (int i; i < n; i++)
+    {
+        if (x == a[i])
+        {
+            count += 1;
+        }
+    }
+    printf("%d", count);
     return 0;
 }
-
-// int main()
-// {
-
-//     return 0;
-// }
-
-// int main()
-// {
-
-//     return 0;
-// }
 
 // int main()
 // {
