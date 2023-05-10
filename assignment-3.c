@@ -99,30 +99,41 @@
 //     return 0;
 // }
 
-int main()
-{
-    int n;
-    scanf("%d", &n);
-    int a[n];
-    int x, count = 0;
-    for (int i; i < n; i++)
-    {
-        scanf("%d", &a[i]);
-    }
-    scanf("%d", &x);
-    for (int i; i < n; i++)
-    {
-        if (x == a[i])
-        {
-            count += 1;
-        }
-    }
-    printf("%d", count);
-    return 0;
-}
-
 // int main()
 // {
-
+//     int n;
+//     scanf("%d", &n);
+//     int a[n];
+//     int x, count = 0;
+//     for (int i; i < n; i++)
+//     {
+//         scanf("%d", &a[i]);
+//     }
+//     scanf("%d", &x);
+//     for (int i; i < n; i++)
+//     {
+//         if (x == a[i])
+//         {
+//             count += 1;
+//         }
+//     }
+//     printf("%d", count);
 //     return 0;
 // }
+
+int main()
+{
+    char inp[1001];
+    scanf("%s", &inp);
+    int count[26] = {0};
+    for (int i = 0; i < strlen(inp); i++)
+    {
+        int val = inp[i] - 97;
+        count[val]++;
+    }
+    for (int i = 0; i < 26; i++)
+    {
+        printf("%c - %d\n", i + 97, count[i]);
+    }
+    return 0;
+}
