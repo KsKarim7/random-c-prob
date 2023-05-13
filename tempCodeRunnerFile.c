@@ -1,23 +1,3 @@
-int main()
-// {
-
-//     return 0;
-// }
-
-// int main()
-// {
-
-//     return 0;
-// }
-
-// int main()
-// {
-
-//     return 0;
-// }
-
-// int main()
-// {
-
-//     return 0;
-// }
+for (int i = 0; i < sz; i++)
+    // {
+    // }
