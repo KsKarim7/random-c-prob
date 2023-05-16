@@ -1,33 +1,35 @@
-// #include <stdio.h>
-// void func(int *arr, int n)
-// {
-//     int max = arr[0], min = arr[n];
-//     for (int i = 0; i < n; i++)
-//     {
-//         if (arr[i] > max)
-//         {
-//             max = arr[i];
-//         }
-//         if (arr[i] < min)
-//         {
-//             min = arr[i];
-//         }
-//     }
-//     printf("%d %d", min, max);
-// }
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//     int arr[n];
-//     for (int i = 0; i < n; i++)
-//     {
-//         scanf("%d", &arr[i]);
-//     }
-//     int sz = sizeof(arr) / sizeof(int);
-//     func(arr, sz);
-//     return 0;
-// }
+// https://docs.google.com/document/d/15K3rTJ75RSKmd8ZFe36baYK8V9e8L3QpnlTvui7wopg/edit
+
+#include <stdio.h>
+void func(int *arr, int n)
+{
+    int max = arr[0], min = arr[0];
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] > max)
+        {
+            max = arr[i];
+        }
+        if (arr[i] < min)
+        {
+            min = arr[i];
+        }
+    }
+    printf("%d %d", min, max);
+}
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    int sz = sizeof(arr) / sizeof(int);
+    func(arr, sz);
+    return 0;
+}
 
 // #include <stdio.h>
 // void func(int *arr, int n)
