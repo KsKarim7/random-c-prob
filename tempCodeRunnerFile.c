@@ -1,4 +1,2 @@
-   if (s[i] == '\0')
-    {
-        return v;
-    }
+for (int i = 0; i < m; i++)
+    
